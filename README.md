@@ -29,6 +29,6 @@ To validate functionality, we ran the **Python script** and observed **instant u
 # Final Outcome
 By completing Task 3, we successfully developed a real-time Power BI dashboard with custom streaming data. The dashboard is designed to continuously update and visualize temperature & humidity, making it ideal for IoT-based monitoring systems.
 
-#OUTPUT PICTURE 
+# OUTPUT PICTURE 
 ![Image](https://github.com/user-attachments/assets/25d5c632-e728-467e-9c08-0f780ab65272)
 ![Image](https://github.com/user-attachments/assets/39b5d04c-8ebb-42b4-904e-4412bf7aa45f)
