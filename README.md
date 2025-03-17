@@ -21,15 +21,14 @@ The primary goal was to design a live Power BI dashboard that continuously updat
 # Step-by-Step Execution
 1️⃣ Setting Up a Streaming Dataset in Power BI
   - The first step involved creating a streaming dataset in Power BI Service:
-
-Opened Power BI Service (app.powerbi.com).
-Navigated to Workspaces and created a new streaming dataset.
-Selected "API" as the data source.
-Defined the dataset schema with fields:
-  -timestamp (Date/Time)
-  -temperature (Numeric)
-  -humidity (Numeric)
-Enabled historic data analysis, allowing Power BI to store past values for trend analysis.
+  -Opened Power BI Service (app.powerbi.com).
+  -Navigated to Workspaces and created a new streaming dataset.
+  -Selected "API" as the data source.
+  -Defined the dataset schema with fields:
+    -timestamp (Date/Time)
+    -temperature (Numeric)
+    -humidity (Numeric)
+  -Enabled historic data analysis, allowing Power BI to store past values for trend analysis.
 This setup ensured that Power BI could continuously receive temperature and humidity data.
 
 2️⃣ Creating a Python Script for Real-Time Data Streaming
